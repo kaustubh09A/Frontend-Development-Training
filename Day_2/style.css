@@ -1,0 +1,126 @@
+/* Background Color, Text Color, Font, Padding, Margin,Element Selector */
+body{
+    background-color: #ece7e7;
+    font-family: Arial, sans-serif;  
+    }
+
+/*  Group Selector */
+h1,
+h2{ color: rgb(64, 64, 122);}
+
+/* Header */
+header{
+    background-color: rgb(151, 151, 137);
+    text-align: center;
+    padding: 5px;
+}
+
+/*Navigation Bar using Flexbox */
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(17, 17, 229);
+}
+
+/*Navigation Hover Effect */
+nav a:hover{
+    color: rgb(205, 22, 22);
+}
+
+/* ID Selector */
+#about{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Responsive Image */
+img{
+    width: 200px;
+    max-width: 100%;
+} 
+a:hover{ color: red; }  /*Hover Effect on link  */
+
+/* Form Styling */
+form{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+/* Button Hover Effect */
+
+input[type="submit"]:hover{
+    background-color: rgb(113, 128, 47);
+    color: white;
+}
+
+/* Table Styling */
+
+table{
+    width: 100%;
+    background-color: white;
+}
+
+th{
+    background-color: rgb(119, 193, 218);
+}
+
+/* Class Selector */
+.service-card{
+
+    border: 1px solid black;     /* Border */
+    margin: 2px;                  /* Margin */
+    padding: 20px;               /* Padding */
+
+    border-radius: 10px;         /* Border Radius */
+
+    box-shadow: 10px 2px 5px rgb(74, 70, 70); /* Box Shadow */
+
+    background-color: white;
+
+    text-align: center;
+}
+
+/* Responsive Services Section */
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Card Hover Effect */
+.service-card:hover{
+    background-color: rgb(155, 196, 191);
+}
+
+/* Footer */
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width:600px){
+
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+        }
+
+}
+
