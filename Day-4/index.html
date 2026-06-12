@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 JavaScript Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header Section -->
+<header>
+    <h1>Day 4 - Advanced JavaScript Practice</h1>
+</header>
+
+    <!--Events Handling -->
+     <hr>
+<section class="day4-section">
+         <h2>Events Handling</h2>
+
+         <!-- onclick Event -->
+         <button onclick="changeBgColor()">
+         Change Background Color
+         </button>
+         <br><br>
+
+    <!-- onmouseover Event -->
+         <p onmouseover="showMessage()">
+         Hover Mouse Here
+         </p>
+         <p id="welcome"></p>
+     <hr>
+
+    <!-- onkeyup Event -->
+         <textarea id="textArea"
+            onkeyup="countChars()"
+            rows="5"
+            placeholder="Type something here...">
+         </textarea>
+     <p>
+     Character Count :
+     <span id="count">0</span>
+     </p>
+
+    <hr>
+
+    <!-- onchange Event -->
+     <select id="course"
+         onchange="displaySelectedValue()">
+         
+        <option value="">Select Course</option>
+        <option value="HTML"> 
+        HTML 
+        </option>
+
+        <option value="CSS">
+         CSS
+        </option>
+
+        <option value="JavaScript">
+            JavaScript
+        </option>
+
+     </select>
+     <p id="selectedCourse"></p>
+ 
+    <hr>
+
+    <!-- Object Display -->
+     <h3>OBJECTS</h3>
+     <button onclick="displayStudent()">
+        Show Student Details
+     </button>
+
+     <p id="studentInfo"></p>
+
+    <hr>
+
+    <!-- Mini Webpage --> 
+     <h3>Mini Webpage</h3>
+     <button onclick="showProjectInfo()">
+     Show Technologies
+     </button>
+     <p id="projectInfo"></p>
+    
+      <!-- salary print-->
+     <button onclick="showSalary()">
+      Show Employee Details
+     </button>
+     <p id="salaryInfo"></p>
+
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Website. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>    <!-- Day 3 Update -->
+</body>
+</html>

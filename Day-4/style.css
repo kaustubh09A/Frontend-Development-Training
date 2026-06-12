@@ -1,0 +1,116 @@
+
+.day4-section button{
+     padding: 3px;
+     margin: 5px;
+}
+
+.day4-section textarea{
+     max-width: 100%;
+}
+
+
+header{
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+}
+
+header h1{
+    text-align: center;
+}
+
+/* Body Styling */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Day 4 Section Styling */
+.day4-section{
+     background-color: white;
+     width: 80%;
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+     text-align: center;
+     border-radius: 10px;
+     
+}
+
+/* Button Styling */
+.day4-section button{
+     background-color: #948d6b;
+     color: white;
+     border: none;
+     padding: 10px 15px;
+     margin: 5px;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+/* Button Hover Effect */
+.day4-section button:hover{
+     background-color: #005fa3;
+}
+
+/* Textarea Styling */
+.day4-section textarea{
+     width: 80%;
+     max-width: 100%;
+     padding: 10px;
+     border-radius: 5px;
+}
+
+/* Select Styling */
+.day4-section select{
+     padding: 8px;
+     border-radius: 5px;
+}
+
+/* Output Styling */
+#welcome {
+     background-color: #d9e3ed;
+     padding: 5px;
+     border-radius: 5px;
+     margin-top: 10px;
+}
+
+#selectedCourse{
+     background-color: #d9e3ed;
+     padding: 5px;
+     border-radius: 5px;
+     margin-top: 10px;
+}
+
+#studentInfo {
+     background-color: #d9e3ed;
+     padding: 5px;
+     border-radius: 5px;
+     margin-top: 10px;
+}
+
+#projectInfo{
+     background-color: #d9e3ed;
+     padding: 5px;
+     border-radius: 5px;
+     margin-top: 10px;
+}
+
+#salaryInfo{
+     background-color: #d9e3ed;
+     padding: 5px;
+     border-radius: 5px;
+     margin-top: 10px;
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p{
+    text-align: center;
+}
