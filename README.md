@@ -80,6 +80,18 @@ This project is created as part of Frontend Development Training. It covers HTML
 * Spread operator for max/min values
 * Mini interactive webpage
 ---
+### Day 5 JavaScript Project**
+Overview
+
+This project was developed as part of JavaScript Day 5 training. It demonstrates form validation, dynamic content updates, theme switching, image gallery functionality, character counting, responsive design, and CSS animations.
+
+**Learning Outcomes**
+JavaScript Form Validation
+DOM Manipulation
+Event Handling
+Responsive Web Design
+CSS Hover Effects and Animations
+Interactive User Interface Development
 ## 👨‍💻 Author
 Kaustubh Awari
 ---
@@ -88,3 +100,4 @@ Kaustubh Awari
 ✔️ Day 2 Completed  
 ✔️ Day 3 Completed  
 ✔️ Day 4 Completed (Advanced JavaScript)
+✔️ Day 5 Completed (Advanced JavaScript)
