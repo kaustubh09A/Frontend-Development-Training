@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+<!-- Header-------------------------------->
+     <header>
+     <h1>JavaScript Day 5 Project</h1>
+     <p>Form Validation, Dynamic Content & Interactive Webpage</p>
+</header>
+
+<div class="container">
+
+<!-- Registration Form ------------------------------>
+    <div class="card">
+        <h2>Registration Form</h2>
+
+        <input type="text" id="name" placeholder="Full Name">
+
+        <input type="text" id="email" placeholder="Email">
+
+        <input type="text" id="mobile" placeholder="Mobile Number">
+
+        <input type="password" id="password" placeholder="Password">
+
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+
+        <p id="message"></p>
+        <button onclick="validateForm()">Submit</button>
+    </div>
+
+<!-- Dynamic Content ----------------------------->
+    <div class="card">
+        <h2 id="heading">Welcome to My Website</h2>
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="changeColor()">Change Background</button>
+    </div>
+
+<!-- Dynamic Image -------------------------------->
+    <div class="card">
+        <h2>Dynamic Image</h2>
+        <img id="image" src="images/image-1.jpg">
+        <button onclick="changeImage()">Change Image</button>
+    </div>
+
+<!-- Theme Switcher --------------------------------->
+    <div class="card">
+        <h2>Theme Switcher</h2>
+        <button onclick="lightMode()">Light Mode</button>
+        <button onclick="darkMode()">Dark Mode</button>
+    </div>
+
+<!-- Image Gallery ------------------------------------>
+    <div class="card">
+        <h2>Image Gallery</h2>
+        <img id="gallery" src="images/image-1.jpg">
+        <div class="btn-group">
+            <button onclick="previousImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+        </div>
+    </div>
+
+<!-- Character Counter -------------------------------->
+    <div class="card">
+        <h2>Feedback</h2>
+        <textarea id="feedback"
+                  rows="5"
+                   placeholder="Enter your feedback..."
+                  onkeyup="countCharacters()"></textarea>
+        <p>Characters: <span id="count">0</span></p>
+    </div>
+
+</div>
+
+<!-- Footer-------------------------------->
+<footer>
+    <p>© 2026 Kaustubh Awari | JavaScript Training Day 5 Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
